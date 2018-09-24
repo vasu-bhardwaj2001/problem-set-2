@@ -16,7 +16,7 @@ To get started, you'll need to create a [GitHub](https://github.com/) repository
 ```
 04. The cloning process will have created a folder named ```problem-set-2-skeleton```. Rename this folder to ```pset2```.
 ```
-   >>> mv problem-set-2-skeleton pset1
+   >>> mv problem-set-2-skeleton pset2
 ```
 05. Change directories to get into your ```pset2``` folder.
 ```
@@ -28,7 +28,7 @@ To get started, you'll need to create a [GitHub](https://github.com/) repository
 ```
 07. Lastly, we need to add a new remote that points at the repository you created earlier. Make sure you replace YOUR-USERNAME with your actual username.
 ```
-   >>> git remote add pset1 git@github.com:YOUR-USERNAME/problem-set-2.git
+   >>> git remote add pset2 git@github.com:YOUR-USERNAME/problem-set-2.git
 ```
 08. Launch Eclipse and set the ```Workspace``` to the ```APCSA``` folder you created on your ```Desktop```. Make sure you're using your ```Workspace```, as others' will be similarly named.
 09. From within the ```Package Explorer``` (the left-most panel), right-click and select ```Import...```.
