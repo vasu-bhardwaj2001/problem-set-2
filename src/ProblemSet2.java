@@ -107,19 +107,19 @@ public class ProblemSet2 {
 	
 	public void initials() {
 		System.out.println("\ninitials\n\nEnter your first name:");
-		String finitial = input.nextLine();
+		String finitial = input.nextLine().toUpperCase();
 		System.out.println("Enter your middle name (if you don't have one, then respond n):");
-		String minitial = input.nextLine();
+		String minitial = input.nextLine().toUpperCase();
 		if (minitial.equals("n") || minitial.equals("N")) {
 			System.out.println("Enter your last name:");
-			String linitial = input.nextLine();
+			String linitial = input.nextLine().toUpperCase();
 			System.out.print(finitial.charAt(0));
 			System.out.print(linitial.charAt(0));
 		}
 		else {
 			String minitial2 = input.nextLine();
 			System.out.println("Enter your last name:");
-			String linitial = input.nextLine();
+			String linitial = input.nextLine().toUpperCase();
 			System.out.print(finitial.charAt(0));
 			System.out.print(minitial2.charAt(0));
 			System.out.print(linitial.charAt(0));
