@@ -77,7 +77,7 @@ public class ProblemSet2 {
 			System.out.println("You will need " + Math.round(newbusses) + " busses. there will be 47 people on " + busses + " and " + number % 47 + " people on one bus." );
 		}
 		else {
-			System.out.println("You will need " + Math.round(busses) + " busses. there will be 47 people on " + number + " busses.");
+			System.out.println("You will need " + Math.round(busses) + " busses. there will be 47 people on " + busses + " busses.");
 		}
 		
 	}
@@ -117,11 +117,10 @@ public class ProblemSet2 {
 			System.out.print(linitial.charAt(0));
 		}
 		else {
-			String minitial2 = input.nextLine();
 			System.out.println("Enter your last name:");
 			String linitial = input.nextLine().toUpperCase();
 			System.out.print(finitial.charAt(0));
-			System.out.print(minitial2.charAt(0));
+			System.out.print(minitial.charAt(0));
 			System.out.print(linitial.charAt(0));
 		}
 		input.close();
